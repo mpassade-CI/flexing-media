@@ -6,3 +6,36 @@
   height: 80px;
   border: 2px solid orange;
 }
+.app {
+  display: flex;
+}
+.bigRect {
+  display: flex;
+}
+.smallRect {
+  display: flex;
+}
+@media (max-width: 599px){
+  .app {
+    flex-direction: column;
+  }
+  .bigRect {
+    flex-direction: column;
+  }
+  .smallRect {
+    flex-direction: column;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px){
+  .app {
+    flex-direction: column;
+  }
+  .bigRect {
+    flex-direction: column;
+  }
+}
+@media (min-width: 801px) and (max-width: 1000px){
+  .app {
+    flex-direction: column;
+  }
+}
